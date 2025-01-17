@@ -20,19 +20,18 @@ Exemple de fichiers de configuration
 
 ```
 Le fichier de configuration comporte 2 parties distinctes
-- la version Moodle
+- Moodle
 - la liste des plugins à installer
 
 ## Moodle
 
-
 Chaque version de Moodle comporte 3 parties par exemple: 4.5.1 
 Une version majeure est définie par les 2 premiers chiffres : 4.5
 Le dernier chiffre indiquant les versions mineures.
-Moodle suit les concepts [semantic versionnning](semantic_versionning.md)
+Moodle suit les concepts [semantic versionnning](versionninnage_semantique.md)
 
 Moodle HQ livre des mises à jour chaque semaine pour les versions mineures maintenues.
-Tous les 2 mois sortie d'une nouvelle version minueures apres passge de test approfondis
+Tous les 2 mois, sortie d'une nouvelle version mineure apres passage de test approfondis
 voir le détail [ici](https://moodledev.io/general/releases)
 
 Dans le fichier de configuration il est possible de préciser comme version source :
