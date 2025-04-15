@@ -4,22 +4,25 @@ nous avons fait les choix suivants :
 - utilisation de git source unique de vérité
 - mode déclaratif : un fichier unique de configuration
 
+L'état des ressource (version Moodle; version des plugins) est donné par git
+Le script a pour fonction de reconcilier l'état observé avec l'état demandé. 
 ## Git
 
-Git est utlisé depuis plus de 10 ans comme outil de versionnange des sources.
+Moodle utilise Git depuis plus de 10 ans comme outil de versionnange des sources.
 Une base de code Moodle est un assemblage contutué à partir 
 - d'une version Moodle 
 - une liste de plugins
 
 Le répertoire officiel des plugins agréés par Moodle fournit le dépot git des sources des plugins. 
-Le fait de tout gérer sosu git présente plusieurs avantages  en particulier
+Le fait de tout gérer sous git présente plusieurs avantages;  en particulier
 - définition précise de ce qui est installé
 - pouvoir reconstruire un état antérieur
 - automatisation de la génération des bases de codes
 
-L'outil peut gérer plusieurs base de codes distinctes: ces diffrentes instances partgent les ressources dans le cache (Moodle, plugins).
-L'automatiqation des tâches est esenntielle pour la fiabilité des opérations ainsi que pour le gain de temps.
-Les mises à jour de Moodle corrigent bon nombre de failles de sécurité mais souvent ne sont pas installées à cause de la lourdeur des opérations manuelles [voir Eduardo Kraus](https://moodle.org/user/view.php?id=1428341&course=5)
+Le script peut gérer plusieurs projets distinctes: ces diffrentes instances partgent les ressources dans le cache (Moodle, plugins).
+L'automatisation des tâches de mise à jour est essentielle pour la fiabilité des opérations ainsi que pour le gain de temps.
+Les mises à jour de Moodle corrigent bon nombre de failles de sécurité mais souvent ne sont pas installées à cause de la 
+lourdeur des opérations manuelles [voir Eduardo Kraus](https://moodle.org/user/view.php?id=1428341&course=5)
 La possibilité de reconstruire la base de code à un état donné est essentielle en cas de problémes.
 [ce qu'un crash complet de notre production m'a appris](https://www.youtube.com/watch?v=IY3S4l81aB4)
 

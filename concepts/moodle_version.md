@@ -20,3 +20,5 @@ dans notre cas, un plugin fonctionnant avec une version de Moodle doit fonctionn
 
 [voir article de Michael Milette](https://www.tngconsulting.ca/should-i-upgrade-update-moodle/
 )
+
+A partir d'Avril 2025, l'introduction de la notion de **series** va changer tout cela ; voir [Matt Porrit](https://moodle.org/mod/forum/discuss.php?d=457946)
