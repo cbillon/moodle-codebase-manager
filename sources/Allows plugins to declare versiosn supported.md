@@ -2,7 +2,7 @@
 
 [ici](https://tracker.moodle.org/browse/MDL-59562)
 
-he version.php file has a way to declare which first major stable version is supported via:
+The version.php file has a way to declare which first major stable version is supported via:
 
 $plugin->requires = '2014010101';
 

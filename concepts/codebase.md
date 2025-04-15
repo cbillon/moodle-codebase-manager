@@ -9,14 +9,14 @@ La base de code Moodle comprend :
 - les sources Moodle
 - les sources des plugins
 
-Il y a seulement une base de code par appliprojet, mais il y aura plusieurs déploiements de l’application. Un déploiement est une instance en fonctionnement de l’application. C’est, par exemple, le site en production, ou bien un ou plusieurs sites de validation. 
+Il y a seulement une base de code par appli projet, mais il y aura plusieurs déploiements de l’application. Un déploiement est une instance en fonctionnement de l’application. C’est, par exemple, le site en production, ou bien un ou plusieurs sites de validation. 
 La gestion des sources sous git permet d'avoir un historique des versions sucessives, et de reconstruire un état antrérieur.
 ## Dépendances
 
 La version de plugins à installer dépond de la version de Moodle
 Ces dépendances sont décrites explicitement dans le fichier de configuration
 
-Le fichier de confuguartion définit un état des ressources
+Le fichier de confuguration définit un état des ressources
 - Moodle
 - les plugins
 
