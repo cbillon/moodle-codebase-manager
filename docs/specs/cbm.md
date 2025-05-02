@@ -106,8 +106,8 @@ Cela simplifie le fonctionnement : le role de l'outil est simplement de réconci
 
 ### . 4 un résultat versionné et immuable
 
-Le résultat de la génération est un répertoire contenant le code source.
-Une nouvelle version complète de la base de code est générée  à chaque fois itération.
+Les mises à jour ne sont jamais effectués sur le code en cours d'utilisation.
+Une nouvelle version complète de la base de code est générée  à chaque fois.
 
 Ce résultat est versionné sous git cela permet à tout moment de restorer un état antérieur.
 
