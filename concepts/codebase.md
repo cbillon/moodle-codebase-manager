@@ -1,15 +1,14 @@
 # Base de code (Code base)
 
 ## Définition
-Le terme codebase, ou code base est utilisé en développement de logiciel pour désigner l'ensemble du code source utilisé pour construire un logiciel ou un composant. 
-Dans notre cas cela comprend les source de Moodle , ainsi que les sources des plugins.
+Le terme codebase, ou base de code est utilisé en développement de logiciel pour désigner l'ensemble du code source utilisé pour construire un logiciel ou un composant. 
 Les sources sont disponibles sous format de fichier zip ou depuis un depot git
-Les sources sont versionnés grâce à git système de gestion de versions le plus corramment utiloisé.
+Les sources sont versionnés grâce à git système de gestion de versions le plus courramment utilisé.
 La base de code Moodle comprend :
 - les sources Moodle
 - les sources des plugins
 
-Il y a seulement une base de code par appli projet, mais il y aura plusieurs déploiements de l’application. Un déploiement est une instance en fonctionnement de l’application. C’est, par exemple, le site en production, ou bien un ou plusieurs sites de validation. 
+Il y a seulement une base de code par projet, mais il y aura plusieurs déploiements de l’application. Un déploiement est une instance en fonctionnement de l’application. C’est, par exemple, le site en production, ou bien un ou plusieurs sites de validation. 
 La gestion des sources sous git permet d'avoir un historique des versions sucessives, et de reconstruire un état antrérieur.
 ## Dépendances
 

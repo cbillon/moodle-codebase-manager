@@ -86,4 +86,10 @@ depreciation :
 **One big advantage that might not be clear is that if a 3rd party plugin works in 5.0 it should also work fine in 5.3, but then may break in 6.0 - we also like the last release in the series being the LTS version too.** 
 As a plugin developer, this affects me because, while I will hopefully be able to limit my number of branches to one per series
 
-Préconisation ; pour chque plugin avoir une branche correspondant à la série supportée
+Evoltion pour les plugins : 
+- pour chaque plugin avoir une branche correspondant à la version majeure de Moodle
+- avoir une branche pour la version majeure supportée
+
+
+
+

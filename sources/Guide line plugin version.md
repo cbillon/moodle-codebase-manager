@@ -8,7 +8,6 @@ What if a new version of Moodle comes out, and we confirm that the theme is comp
 
 If your plugin published on Moodle.org is compatible with a newer version if Moodle without any changes, just edit your submission and add the new version of Moodle to it without uploading a new version. Some of my plugins have not required any changes since several versions of Moodle and this is what I do.
 
-
 The problem with indicating exact version compatibility in version.php is that not every maintainer will keep their plugins up to date yet there is a good chance that it will work just fine in subsequent releases of Moodle.
 
 Another option I have seen some maintainers use is to create a new branch of their plugin for each release of Moodle. Personally I would only do this if there was such a big change to my code that I did not want to have to maintain backwards compatibility.
@@ -32,8 +31,11 @@ Additionally I try to adapt the ideas and spirit of the semantic versioning. Whe
 
  Also wanted to point to just recently added [MDL-59562](https://tracker.moodle.org/browse/MDL-59562) - ability for plugins to declare which major stable versions of moodle are supported directly in their version.php file (supported since Moodle 3.9)
 
+[Improved validations API for mainteners ability to release by tagging at github](https://moodle.org/mod/forum/discuss.php?d=423251#p1705237)
+[plugin ci Moodle HQ](https://github.com/moodlehq/moodle-plugin-release)
 
 [Other thread](https://moodle.org/mod/forum/discuss.php?d=264988)
+[version.php ](https://moodledev.io/docs/5.1/apis/commonfiles/version.php) documentation officielle
 
 **Tim Hunt**
 

@@ -27,3 +27,5 @@ This data would be leveraged in a couple ways:
     If 'supported' is provided AND the current version is not in the list, then at install / upgrade time a warning would be produced.
     If 'unsupported' is provided AND the current version is in the list, or a lower value is, then this should be a hard install / upgrade failure. We can safely assume that if say 3.3 is not supported then all future versions after 3.4+ are also not supported. This value could just be the first unsupported version string, and not an array, as they are functionally identical.
     In the Moodle plugin directory this info can be parsed out and use to automatically populate the plugin metadata. The plugin directory could be configured to ingest multiple git branches from github which each declare different support levels.
+
+[official documentation](https://moodledev.io/docs/5.2/apis/commonfiles/version.php)

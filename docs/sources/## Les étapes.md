@@ -1,6 +1,6 @@
 ## Les étapes
 
-Il y a étapes diffrentes dans la gestion de la base de code :
+Il y a 4 étapes différentes dans la gestion de la base de code :
 
 📥 Source stage: Le code source est versionné dans git.
 🔧 Build stage: génération de la base de code à partir du code source.

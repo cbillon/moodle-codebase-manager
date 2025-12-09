@@ -1,6 +1,6 @@
 # Plugin Moodle
 
-## Presenatation
+## Presentation
 Moodle est un système modulaire. Cela signifie que Moodle a été conçu pour pouvoir ajouter des fonctionnalités supplémentaires à sa plateforme de base grâce à l'utilisation de plugins. 
 Plus de 2000 plugins complémentaires ont été développés par la communauté.
 
@@ -8,7 +8,7 @@ Plus de 2000 plugins complémentaires ont été développés par la communauté.
 Les plugins sont regroupés selon la similitude de fonctionnement par type : 
 [type de plugins](https://moodledev.io/docs/4.1/apis/plugintypes)
 
-La convention de nommage d'un plugin est la suivante : **moodle-type_nom**
+La convention de nommage d'un plugin est la suivante : *type_nom**
 
 ## Installation
 
