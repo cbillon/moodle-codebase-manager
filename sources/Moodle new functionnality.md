@@ -1,0 +1,3 @@
+## Marina Glancy
+
+We have detected that this issue has been inactive for over two years and also did not collect many votes. It is possible that it has been already implemented in a more recent version of Moodle, or it is not highly demanded. There are unlimited number of ways Moodle functionality can be expanded and improved but we would like to concentrate on the features that will benefit majority of users, and which can not be implemented as plugins. If you have a suggestion for improving Moodle core, and there is no open issue for it in the tracker, please start a new forum discussion to see how many other users agree with you, and then create a new issue providing as many details as possible.

@@ -1,0 +1,16 @@
+Plugins Version Rules
+
+Plugin Microsoft
+https://github.com/microsoft/o365-moodle/issues/2401
+
+I confirm the current usage of version numbers in the plugins is on purpose. The general approach is:
+
+The initial version of plugin for each Moodle major release (e.g. 4.x) is the same as version number of core Moodle, which is normally the date of the Moodle major release followed by 00. e.g. all Microsoft plugins in the 4.3.0 release have version 2023100900, which is same as core Moodle 4.3.0.
+For each individual code change after a release, e.g. bug fixes or new feature, if plugin version change is required, the version number bumps up by 1. Only version of the affected plugin is changed. As you can imagine, the plugin that has most frequent version change is local_o365. These are tracked in separate WIP branches. e.g. a bug fix may update version number of local_o365 to 2023100901; another new feature may update version number of local_o365 to 2023100902.
+On the next release of the Microsoft plugins, all changes made since the last release are gathered and the WIP branches are merged in appropriate order (this is important in db/upgrade.php). Then the last two digits of the version is bumped up to the next multiples of 5 (i.e. 05, 10, 15 etc). e.g. if the next release of local_o365 for Moodle 4.3 contains only the two changes above that require version change, the next release 4.3.1 of local_o365 will have version 2023100905. In fact, most releases contain less than 5 changes that updates version number, but the upcoming release will be an exception - the version is likely to be bumped up by 10.
+While I understand that setting version number to match release date may make Moodle administrator's job a bit easier in some cases, we have some good reasons why the current approach is used:
+
+Most importantly, this approach allow us keeping different codes for different Moodle releases. While the vast majority of codes would work across different Moodle releases, there are odd cases where a new core API function is introduced, or old ones being removed. So being able to keep separate codes for different Moodle releases is preferable.
+This reduces the chance of installing incompatible versions of plugins to Moodle sites. $plugin->requires is defined in version.php, so plugins cannot be installed in the Moodle releases lower than the plugins are designed for. e.g. you can't install 4.3.0 releases on a Moodle 4.2.x site. Note it doesn't prevent installing 4.2.x releases of the plugins on 4.3.x Moodle sites - in fact, many users did it before 4.3.0 version of the plugins was released. This is acceptable use case - as soon as the 4.3.0 release of the plugins were made available, Moodle administrator could see "new version available" messages on the plugins overview page.
+This allows us to easily identify plugin support status - whether the version is still supported, or it's out of support already.
+This makes supporting the plugins through this GitHub issue tracker easier.

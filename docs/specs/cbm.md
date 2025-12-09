@@ -71,7 +71,7 @@ Les sources seront versionnés sous git:
 
 
 Pourquoi ?
-Tous les sources des composants sont disponible , ce qui conduit naturellement à tout gérer sous git.
+Toutes les sources des composants sont disponibles , ce qui conduit naturellement à tout gérer sous git.
 Le versionnage des sources apporte de nombreux avantages notamment:
 
 - une traçabilité de toutes les modifications

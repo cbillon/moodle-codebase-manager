@@ -1,0 +1,35 @@
+Moodle security
+
+https://23165921.fs1.hubspotusercontent-na1.net/hubfs/23165921/Moodle%20Security%20Whitepaper.pdf
+
+Security isn’t a feature. It’s the foundation. 
+Because security isn’t just about protecting data - it’s about protecting trust.
+Our commitment to safeguarding users’ data and protecting learning environments is rooted in a security by design philosophy, meaning that security considerations are prioritised from
+the earliest stages of software development through to deployment and ongoing support.
+
+Community-driven resilience is another defining
+characteristic of open-source security. When a vulnerability
+is discovered in Moodle LMS, the global community
+- including Moodle, Moodle Certified Partners, and
+independent developers - mobilises to implement a fix. In
+this model, security is not the sole responsibility of a single
+organisation but a continuous, collective effort.
+The strengths of open-source community security include:
+• Rapid identification and resolution of vulnerabilities.
+• Shared responsibility for ongoing improvement.
+• Broader scrutiny across diverse sectors and use
+cases.
+
+The need for rigorous peer review 
+One of the most significant challenges lies in the diversity of contributors. With individuals and organisations around the world submitting improvements, there is a risk that some code changes may not undergo
+sufficiently rigorous review. Without a strong peer
+review process, flaws such as buffer overflows, improper
+input validation, or configuration weaknesses could
+inadvertently be introduced. To mitigate this, Moodle
+implements structured peer review protocols, requiring
+that contributions are thoroughly assessed before being
+accepted into the codebase.
+
+Our commitment to safeguarding users’ data and protecting learning environments is rooted in a security by design philosophy, meaning that security considerations are prioritised from the earliest stages of software development through to deployment and ongoing support.
+
+Automatic security updates : A managed service ensures that Moodle core software, server components, and security patches are applied without delays.
